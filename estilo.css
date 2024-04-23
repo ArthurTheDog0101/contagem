@@ -45,7 +45,7 @@ body{
 }
 
 .titulo-principal {
-    color: var(--azul);
+    color: var(--branco);
     text-align: left;
     width: 100%;
     font-size: 32px;
