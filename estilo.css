@@ -8,10 +8,10 @@ body{
 
 :root {
     --cor-de-fundo:#1E1E1E;
-    --verde: #6FFF57;
+    --azul: #0400ff;
     --vermelho:#FF000F;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --botao-ativo: #003e49;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgb(255, 255, 255);
 }
@@ -43,7 +43,7 @@ body{
 }
 
 .titulo-principal {
-    color: #FF000F;
+    color: var(--azul);
     text-align: left;
     width: 100%;
     font-size: 32px;
@@ -51,13 +51,12 @@ body{
 
 .botao {
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--texto-fundo);
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
-    color:var(--branco);
     width: 100%;
     border: 4px solid var(--botao-ativo);
     border: 2px solid var(--botao-ativo);
@@ -92,11 +91,11 @@ body{
     font-size: 28px;
 }
 .aba-conteudo-titulo-principal{
-    color: #501a1a;
+    color: #00d9ff;
     text-transform: uppercase;
 }
 .aba-conteudo-titulo-segundario{
-    color: #9d4f4f;
+    color: #00ffb3;
 }
 
 @media screen and (min-width:768px){
