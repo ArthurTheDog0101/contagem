@@ -1,8 +1,3 @@
-
-body{
-    
-}
-
 :root {
     --cor-de-fundo:#1E1E1E;
     --azul: #0400ff;
@@ -85,8 +80,7 @@ body{
 .abas-texto{
     color: #FFFFFF;
     background-color: var(--cor-de-fundo);
-   padding: 40px;
-    border-radius: 0 0 40px 40px ;
+  
 }
 .aba-conteudo{
     text-align: center;
