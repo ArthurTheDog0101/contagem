@@ -72,7 +72,7 @@ body{
     border-bottom: 4px solid var(--vermelho);
 }
 .aba-conteudo.ativo{
-    display: block;
+    display: block; 
 }
 .aba-conteudo{
     display: none;
@@ -80,18 +80,19 @@ body{
 .abas-texto{
     color: #FFFFFF;
     background-color: var(--cor-de-fundo);
-  
+   padding: 40px;
+    border-radius: 0 0 40px 40px ;
 }
 .aba-conteudo{
     text-align: center;
     font-size: 28px;
 }
 .aba-conteudo-titulo-principal{
-    color: #00d9ff;
+    color: #ffffff;
     text-transform: uppercase;
 }
 .aba-conteudo-titulo-segundario{
-    color: #00ffb3;
+    color: #004c5f;
 }
 
 @media screen and (min-width:768px){
