@@ -2,6 +2,8 @@
     --cor-de-fundo:#1E1E1E;
     --azul: #0400ff;
     --vermelho:#FF000F;
+    --verde:#00ff2a;
+    --verde: ;
     --branco: #FFFFFF;
     --botao-ativo: #00d9ff;
     --botao-inativo: rgba(0, 77, 112, 0.5);
@@ -31,7 +33,7 @@ body{
 
 
 .conteudo-principal span{
-    color: var(--azul);
+    color: var(--vermelho);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +71,7 @@ body{
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--vermelho);
+    border-bottom: 4px solid var(--verde);
 }
 .aba-conteudo.ativo{
     display: block; 
